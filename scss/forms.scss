@@ -1,0 +1,24 @@
+//Buttons======
+.btn{
+  background-color: #FF6464;
+  height: 47px;
+  color: #fff;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: calc(29 / 20 * 100%);
+  border-radius: 2px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  display: inline-flex;
+  padding: 0 20px;
+  transition: background-color 0.3s ease 0s;
+  @media(min-width: 992px) {
+    &:hover {
+      background-color: #b74646;
+    }
+    &.fw {
+      width: 100%;
+    }
+  }
+}

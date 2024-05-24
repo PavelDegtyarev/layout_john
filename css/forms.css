@@ -1,0 +1,13 @@
+.btn {
+  background-color: #FF6464;
+  border-radius: 2px;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  padding: 0 20px;
+}
+@media (min-width: 992px) {
+  .btn.fw {
+    width: 100%;
+  }
+}
